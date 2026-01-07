@@ -1,51 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkState - Legal Center</title>
+    <title>LinkState | Legal Base</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="background-grid"></div>
-    <div class="container">
-        <header>
-            <div class="logo-mark">
-                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2L4 6V18L12 22L20 18V6L12 2Z" stroke="#00E5FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="12" cy="12" r="3" stroke="#00E5FF" stroke-width="1.5"/>
-                    <path d="M12 2V9" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="2 2"/>
-                    <path d="M12 15V22" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <div class="visual-engine">
+        <div class="node n1"></div>
+        <div class="node n2"></div>
+        <div class="node n3"></div>
+        <div class="scanline"></div>
+    </div>
+
+    <div class="container hero-container">
+        <header class="animate-in">
+            <div class="logo-container">
+                <div class="orb-aura"></div>
+                <svg class="main-logo" width="120" height="120" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path class="logo-path" d="M12 2L4 6V18L12 22L20 18V6L12 2Z" stroke="#00E5FF" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <circle class="logo-core" cx="12" cy="12" r="3" fill="#00E5FF" />
+                    <path class="logo-dots" d="M12 2V9M12 15V22M4 6L10 9M14 15L20 18" stroke="#00E5FF"
+                        stroke-width="0.5" stroke-dasharray="2 2" />
                 </svg>
             </div>
-            <h1>LINKSTATE</h1>
-            <p class="subtitle">SYSTEM STABILIZATION PROTOCOLS</p>
+            <h1 class="glitch-text" data-text="LINKSTATE">LINKSTATE</h1>
+            <div class="status-bar">
+                <span class="status-dot pulse"></span>
+                <p class="subtitle">SYSTEM STABILIZATION PROTOCOLS // REV_2026</p>
+            </div>
         </header>
 
-        <main>
+        <main class="animate-in delay-1">
+            <div class="intro-text">
+                <p>Welcome to the LinkState Legal Base. Below are the operational requirements and data trace management
+                    protocols for all network navigators.</p>
+            </div>
+
             <div class="card-grid">
-                <a href="privacy.html" class="legal-card">
-                    <div class="card-icon">🛡️</div>
-                    <h2>Privacy Policy</h2>
-                    <p>Learn how we handle your data traces and device identifiers.</p>
-                    <span class="btn-text">READ TRACE POLICY →</span>
+                <a href="privacy.html" class="legal-card premium">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="card-id">01_</span>
+                            <div class="card-icon">🛡️</div>
+                        </div>
+                        <h2>Privacy Policy</h2>
+                        <p>Detailed breakdown of how we secure your device identifiers and system traces.</p>
+                        <div class="btn-wrap">
+                            <span class="btn-text">INITIALIZE PROTOCOL</span>
+                            <span class="btn-arrow">→</span>
+                        </div>
+                    </div>
                 </a>
 
-                <a href="terms.html" class="legal-card">
-                    <div class="card-icon">⚖️</div>
-                    <h2>Terms of Service</h2>
-                    <p>The rules of engagement within the LinkState global network.</p>
-                    <span class="btn-text">READ PROTOCOLS →</span>
+                <a href="terms.html" class="legal-card premium">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="card-id">02_</span>
+                            <div class="card-icon">⚖️</div>
+                        </div>
+                        <h2>Terms of Service</h2>
+                        <p>The core rules of engagement and licensing for the LinkState neural network.</p>
+                        <div class="btn-wrap">
+                            <span class="btn-text">ACCESS GUIDELINES</span>
+                            <span class="btn-arrow">→</span>
+                        </div>
+                    </div>
                 </a>
             </div>
         </main>
 
-        <footer>
-            <p>&copy; 2026 LinkState Engine. All Rights Reserved.</p>
+        <footer class="animate-in delay-2">
+            <div class="footer-line"></div>
+            <p>&copy; 2026 LINKSTATE GLOBAL ENGINE // NO TRACE LEFT BEHIND</p>
         </footer>
     </div>
 </body>
+
 </html>
